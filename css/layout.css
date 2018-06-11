@@ -1,0 +1,228 @@
+body{
+	background: #F2F2F2;
+	font-family:"楷体";
+}
+#img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	z-index: 99;
+}
+#img img{
+	height: 120px;
+	width: 120px;
+}
+#whole{
+	width: 1000px;
+	height: 1191px;
+	/*border: solid 1px red;*/
+	position: absolute;
+	left: 50%;
+	margin-left: -500px;
+}
+#logo{
+	height: 101px;
+	width: 400px;
+	/*border: solid 1px red;*/
+	position: relative;
+	left: 50px;
+}
+#home{
+	position: absolute;
+	right: 200px;
+	top: 10px;
+	text-decoration: none;
+	color: blue;
+}
+#header{
+	/*border: solid 1px red;*/
+	height: 101px;
+	width: 998px;
+	/*border-bottom: solid 1px blue;*/
+}
+#searchdiv{
+	float: right;
+	position: relative;
+	right: 120px;
+	top:50px;
+}
+#menu{
+	height: 30px;
+	width: 960px;
+	/*border: solid 1px red;*/
+	position: relative;
+	top: -10px;
+	background: #DADADA;
+}
+nav ul li{
+	float: left;
+	list-style: none;
+	padding:  0 22px;
+	position: relative;
+	top: 4px;
+	border-right: solid 2px #249EDA;
+}
+#first{
+	padding-left: 0px;
+}
+#last{
+	border-right: none;
+}
+nav ul li a{
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+#content{
+	height: 820px;
+	width: 998px;
+	/*border: solid 1px blue;*/
+}
+/*图片轮播*/
+#show{
+	height: 300px;
+	width: 995px;
+	/*border: solid 1px yellow;*/
+	position: relative;
+	/*bottom: 10px;*/
+}
+#show ul{
+	margin:0px;
+	padding-left: 0px;
+}
+#show ul li{
+	list-style: none;
+}
+#show ul li img{
+	/*display: none;*/
+}
+#num{
+	height: 20px;
+	width: 100px;
+	/*background-color: #F2F2F2;*/
+	/*border: solid 1px #abc;*/
+	position: absolute;
+	bottom: 15px;
+	right: 20px;
+}
+.num{
+	height: 15px;
+	width: 15px;
+	border: solid 1px #393636;
+	float: left;
+	margin-right: 8px;
+	margin-left: 8px;
+	position: relative;
+	top:2px;
+	padding: 0px;
+	cursor:pointer;/*变手*/
+}
+.text{
+	color: #393636;
+	font-size: 12px;
+	position: relative;
+	bottom: 4px;
+}
+/*主要内容四块*/
+#out{
+	height:500px;
+	width:700px;
+	/*border: solid 1px red;*/
+	float: left;
+	position: relative;
+	top: 10px;
+}
+.section{
+	height: 238px;
+	width: 340px;
+	border: solid 1px #DADADA;
+	float: left;
+	margin: 3px;
+}
+#right1{
+	float: right;
+}
+#right2{
+	float: right;
+}
+#out section header{
+	/*font-family: "楷体";*/
+	height: 40px;
+	color: #249EDA;
+	background-color: #DADADA;
+}
+#out section header .h{
+	font-size: 20px;
+	font-weight: bold;
+	position: relative;
+	left:20px;
+	top: 8px;
+}
+#out section header .more{
+	position: relative;
+	left:180px;
+	top:6px;
+}
+#out section header .more a{
+	text-decoration: none;
+	color: #249EDA;
+}
+#out article ul{
+	margin: 0px;
+}
+#out article ul li{
+	list-style: none;
+	height: 30px;
+	width: 338px;
+	border-bottom: dashed 1px #DADADA;
+	margin-top: 2px;
+	position: relative;
+	left:-38px;
+}
+#out article ul li a{
+	text-decoration: none;
+	position: relative;
+	left:20px;
+	top:4px;
+	color: black;
+}
+/*友情链接*/
+#other{
+	height: 484px;
+	width: 280px;
+	border: solid 1px #DADADA;
+	float: right;
+	position: relative;
+	top: 13px;
+}
+#other header{
+	height: 45px;
+	color: #249EDA;
+	background-color: #DADADA;
+}
+#other header span{
+	font-size: 20px;
+	font-weight: bold;
+	position: relative;
+	top: 12px;
+	left:20px;
+}
+#other article ul li{
+	list-style: none;
+	margin-top: 20px;
+}
+#other article ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+}
+/*网页的脚部*/
+#attr{
+	height: 200px;
+	width: 998px;
+	/*border: solid 1px green;*/
+	clear: both;
+	position: relative;
+	top: 5px;
+}

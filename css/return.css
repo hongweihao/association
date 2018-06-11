@@ -1,0 +1,91 @@
+body{
+	background: #F2F2F2;
+	font-family:"楷体";
+}
+#whole{
+	width: 1000px;
+	height: 500px;
+	/*border: solid 1px red;*/
+	position: absolute;
+	left: 50%;
+	margin-left: -500px;
+}
+#logo{
+	height: 101px;
+	width: 400px;
+	/*border: solid 1px red;*/
+	position: relative;
+	left: 50px;
+}
+#home{
+	position: absolute;
+	right: 200px;
+	top: 10px;
+	text-decoration: none;
+	color: blue;
+}
+#header{
+	/*border: solid 1px red;*/
+	height: 101px;
+	width: 998px;
+	/*border-bottom: solid 1px blue;*/
+}
+#searchdiv{
+	float: right;
+	position: relative;
+	right: 120px;
+	top:50px;
+}
+#menu{
+	height: 30px;
+	width: 960px;
+	/*border: solid 1px red;*/
+	position: relative;
+	top: -10px;
+	background: #DADADA;
+}
+nav ul li{
+	float: left;
+	list-style: none;
+	padding:  0 22px;
+	position: relative;
+	top: 4px;
+	border-right: solid 2px #249EDA;
+}
+#first{
+	padding-left: 0px;
+}
+#last{
+	border-right: none;
+}
+nav ul li a{
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+#content{
+	width: 80%;
+	position: relative;
+	left:50%;
+	margin-left: -400px;
+	/*border: solid 1px red;*/
+}
+#content #h p{
+	text-align: center;
+	color: blue;
+	font-size: 28px;
+}
+#content #b p{
+	font-size: 18px;
+}
+#content #b #center{
+	text-align: center;
+}
+#attr{
+	height: 200px;
+	width: 998px;
+	/*border: solid 1px green;*/
+	clear: both;
+	position: relative;
+	top: 5px;
+}
